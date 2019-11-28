@@ -1,0 +1,32 @@
+1./**** printing valid email**/ 
+    n=" 33 hello@example username@domain.com her323@#89asdf.fds"
+    lst = re.findall('\S+@\S+[a-z]+\S+.com\s',n)	
+    print(lst)
+ 
+output:-[username@domain.com]
+
+
+2. /***palindromic triangle***/ 
+  s=int(input("enter the value:-"))
+for i in range(1,s+1):
+    for j in range(1,i+1):
+        print(j,end="")
+    for j in range(i-1,0,-1):
+            print(j,end="")
+    print()
+ input:- enter the value :- 3
+ output:-  1
+               121
+	12321
+	
+
+
+3. /*** difference between the sum of the squares of the first N natural numbers and the square of the sum.***/
+
+n=int(input("enter the value"))
+k=(n*(n+1)/2 )**2
+l=n*(n+1)*(2*n+1)/6
+print(k-l)
+ 
+input:- 4
+output:-70
