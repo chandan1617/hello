@@ -16,8 +16,8 @@ for i in range(1,s+1):
     print()
  input:- enter the value :- 3
  output:-  1
-               121
-	12321
+           121
+	   12321
 	
 
 
